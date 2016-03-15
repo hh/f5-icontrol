@@ -4,4 +4,17 @@ Version 11.04.01 - Added: 10/28/2013
 
 It was distributed as a zip file, containing a gem file.
 Inside the gemfile there was a License mentioning the GPL.
-This export is made so someone might make the effort to distribute it via rubygems.
+
+To build:
+
+```
+git clone https://github.com/hh/f5-icontrol.git
+cd f5-icontrol
+gem build f5-icontrol.gemspec
+```
+
+To use in a Gemfile:
+
+```
+gem 'f5-icontrol', git: 'https://github.com/hh/f5-icontrol.git', ref: '11.4.1.0'
+```
