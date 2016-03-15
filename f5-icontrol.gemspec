@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://devcentral.f5.com/d/icontrol-ruby-library'
   s.add_runtime_dependency 'httpclient', '~> 2.1', '>= 2.1.5.2'
   s.post_install_message = "Thank F5 for publishing a Ruby Gem"
+  s.required_paths = ['lib']
 end
