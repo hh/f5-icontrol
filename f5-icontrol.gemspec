@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.email       = ['DevCentralTeam@f5.com']
   s.files       = `git ls-files -z`.split("\x0")
   s.homepage    = 'https://devcentral.f5.com/d/icontrol-ruby-library'
-  s.add_runtime_dependency 'httpclient', '~> 2.1', '>= 2.1.5.2'
   s.post_install_message = "Thank F5 for publishing a Ruby Gem"
+  s.add_runtime_dependency 'httpclient', '~> 2.1', '>= 2.1.5.2'
+  s.add_runtime_dependency 'soap4r-ruby1.9', '~> 1.6'
   s.require_paths = ['lib']
 end
